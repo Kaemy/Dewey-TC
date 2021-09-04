@@ -122,7 +122,7 @@ $width-sidebar: 135px;
         background-image: $color-degrade;
         border-radius: 10px;
         padding-top: 3px;
-        margin: 3px auto;
+        margin: 4px auto 2px;
 
         .fas {
             margin-left: 10px;
@@ -133,9 +133,9 @@ $width-sidebar: 135px;
     .perso {
         display: flex;
         width: 415px;
-        margin: 5px auto;
+        margin: 4px auto 3px;
         justify-content: space-between;
-        padding: 2px 0;
+        padding: 2px 0 1px;
 
         .sprite {
             border-radius: 5px;
@@ -174,9 +174,9 @@ $width-sidebar: 135px;
 
     .blocdescri {
         width: 415px;
-        margin: 5px auto;
+        margin: 4px auto 3px;
         background-clip: border-box;
-        padding: 2px 0;
+        padding: 2px 0 1px;
     
         .descri-titre {
             padding: 0.2rem 0 0 0.5rem;

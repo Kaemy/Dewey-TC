@@ -105,7 +105,7 @@ body {
   background-image: linear-gradient(90deg, black, #1e1e86);
   border-radius: 10px;
   padding-top: 3px;
-  margin: 3px auto;
+  margin: 4px auto 2px;
 }
 .content-tc .perso-ident .fas {
   margin-left: 10px;
@@ -115,9 +115,9 @@ body {
 .content-tc .perso {
   display: flex;
   width: 415px;
-  margin: 5px auto;
+  margin: 4px auto 3px;
   justify-content: space-between;
-  padding: 2px 0;
+  padding: 2px 0 1px;
 }
 .content-tc .perso .sprite {
   border-radius: 5px;
@@ -152,9 +152,9 @@ body {
 }
 .content-tc .blocdescri {
   width: 415px;
-  margin: 5px auto;
+  margin: 4px auto 3px;
   background-clip: border-box;
-  padding: 2px 0;
+  padding: 2px 0 1px;
 }
 .content-tc .blocdescri .descri-titre {
   padding: 0.2rem 0 0 0.5rem;
