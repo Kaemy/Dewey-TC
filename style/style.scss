@@ -215,7 +215,7 @@ $width-sidebar: 135px;
         margin: 5px auto;
         justify-content: space-between;
 
-        .inventaire {
+        .playlist {
             width: 185px;
             border-radius: 10px;
             border: 1px solid black;
@@ -224,6 +224,7 @@ $width-sidebar: 135px;
             text-align: justify;
             height: 120px;
             overflow: auto;
+            background-color: white;
 
             .title {
                 font-weight: lighter;

@@ -189,7 +189,7 @@ body {
   margin: 5px auto;
   justify-content: space-between;
 }
-.content-tc .bloc-card .inventaire {
+.content-tc .bloc-card .playlist {
   width: 185px;
   border-radius: 10px;
   border: 1px solid black;
@@ -198,15 +198,16 @@ body {
   text-align: justify;
   height: 120px;
   overflow: auto;
+  background-color: white;
 }
-.content-tc .bloc-card .inventaire .title {
+.content-tc .bloc-card .playlist .title {
   font-weight: lighter;
   font-style: italic;
 }
-.content-tc .bloc-card .inventaire a {
+.content-tc .bloc-card .playlist a {
   color: lightseagreen;
 }
-.content-tc .bloc-card .inventaire a:hover, .content-tc .bloc-card .inventaire a:focus {
+.content-tc .bloc-card .playlist a:hover, .content-tc .bloc-card .playlist a:focus {
   text-decoration: none;
   color: lightpink;
 }
