@@ -122,7 +122,7 @@ $width-sidebar: 135px;
         background-image: $color-degrade;
         border-radius: 10px;
         padding-top: 3px;
-        margin: 4px auto 2px;
+        margin: 12px auto;
 
         .fas {
             margin-left: 10px;
@@ -133,7 +133,7 @@ $width-sidebar: 135px;
     .perso {
         display: flex;
         width: 415px;
-        margin: 4px auto 3px;
+        margin: 12px auto;
         justify-content: space-between;
         padding: 2px 0 1px;
 
@@ -174,32 +174,26 @@ $width-sidebar: 135px;
 
     .blocdescri {
         width: 415px;
-        margin: 4px auto 3px;
+        margin: 15px auto;
         background-clip: border-box;
         padding: 2px 0 1px;
-    
-        .descri-titre {
-            padding: 0.2rem 0 0 0.5rem;
-            margin-bottom: 0;
-            background-image: $color-degrade;
-            color: white;
-            font-family: 'Neucha', cursive;
-            line-height: 17px;
-            font-size: 15px;
-            border-radius: 10px 10px 0 0;
-            border: 1px solid black;
-        }
 
         .descri-corps {
             flex: 1 1 auto;
             height: 105px;
             overflow: auto;
-            padding: 5px;
+            padding: 5px 10px 5px 5px;
             font-size:11px;
             text-align: justify;
             background-color: white;
-            border-radius: 0 0 10px 10px;
+            border-radius: 10px;
             border: 1px solid black;
+
+            .titre {
+                color: lightseagreen;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
 
             .perso-ava {
                 text-align:right;
@@ -212,7 +206,7 @@ $width-sidebar: 135px;
     .bloc-card {
         display: flex;
         width: 420px;
-        margin: 5px auto;
+        margin: 5px auto 15px;
         justify-content: space-between;
 
         .playlist {
