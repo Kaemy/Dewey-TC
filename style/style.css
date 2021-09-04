@@ -92,9 +92,7 @@ body {
   /* DEBUT DE LA PARTIE CONCERNANT LES INFORMATIONS GENERALES SUR LE PERSONNAGE */
   /* FIN DE LA PARTIE CONCERNANT LES INFOS GENERALES SUR LE PERSONNAGE */
   /* DEBUT DE LA PARTIE CONCERNANT LES POKEMONS */
-  /* DEBUT DE LA PARTIE CONCERNANT LES POKEMONS */
-  /* DEBUT DE LA PARTIE CONCERNANT LES CARDS */
-  /* FIN DE LA PARTIE CONCERNANT LES CARDS */
+  /* FIN DE LA PARTIE CONCERNANT LES POKEMONS */
 }
 .content-tc .perso-ident {
   justify-content: center;
@@ -413,46 +411,6 @@ body {
 .content-tc .content-pkmn .grid-pkmn .rela-pkmn img {
   margin-left: 5px;
   margin-top: -2px;
-}
-.content-tc .pokecard {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5px;
-  grid-auto-rows: minmax(50px, auto);
-  width: 465px;
-  margin: 5px auto;
-}
-.content-tc .pokecard .coordi-card {
-  grid-column: 1;
-  grid-row: 1;
-}
-.content-tc .pokecard .coordi-card img {
-  border-radius: 5px;
-}
-.content-tc .pokecard .coordi-text {
-  grid-column: 1;
-  grid-row: 2;
-  font-size: 12px;
-  font-family: "Neucha", cursive;
-  letter-spacing: 2px;
-  text-align: center;
-}
-.content-tc .pokecard .elite-card {
-  grid-column: 2;
-  grid-row: 1;
-}
-.content-tc .pokecard .elite-text {
-  grid-column: 2;
-  grid-row: 2;
-}
-.content-tc .pokecard .c-card {
-  grid-column: 1/3;
-  grid-row: 3;
-  margin: auto;
-}
-.content-tc .pokecard .ccard-text {
-  grid-column: 1/3;
-  grid-row: 4;
 }
 
 /*# sourceMappingURL=style.css.map */
