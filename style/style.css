@@ -91,7 +91,6 @@ body strong {
   /* FIN DE LA PARTIE CONCERNANT LES RELATIONS */
   /* DEBUT DE LA PARTIE CONCERNANT L'INVENTAIRE */
   /* Inventaire */
-  /* Obtention / Utilisation / CEIR */
   /* FIN DE LA PARTIE CONCERNANT L'INVENTAIRE */
   /* PARTIE SBIRE */
   /* FIN PARTIE SBIRE */
@@ -698,68 +697,6 @@ body strong {
 .content-tc .space_o {
   padding-left: 5px;
 }
-.content-tc .Obtention {
-  clear: both;
-  width: 445px;
-  margin: 20px auto 0 auto;
-}
-.content-tc .Obtention input[type=radio] {
-  display: none;
-}
-.content-tc .Obtention input[type=radio]:checked + label {
-  background-image: linear-gradient(0.25turn, #00132a, #0b152d, #ff0000);
-  color: white;
-}
-.content-tc .Obtention label {
-  width: 95px;
-  height: 20px;
-  padding: 1px 0;
-  border: 1px solid rgb(0, 0, 0);
-  color: grey;
-  cursor: pointer;
-  text-align: center;
-  font-family: "Sirin Stencil", cursive;
-  font-size: 14px;
-  line-height: 15px;
-  border-radius: 5px;
-  margin-left: 2px;
-}
-.content-tc .Obtention label:first-of-type {
-  margin-left: 25px;
-}
-.content-tc .contenu-obtention {
-  display: none;
-  width: 410px;
-  height: 200px;
-  padding: 5px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  color: black;
-  overflow: auto;
-  line-height: 22px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 10px;
-  letter-spacing: 3px;
-  margin: 0 18px;
-}
-.content-tc .contenu-obtention img {
-  width: 25px;
-  margin-right: 5px;
-  margin-top: -3px;
-}
-.content-tc .contenu-obtention a {
-  text-decoration: none;
-  color: #00132a;
-}
-.content-tc #obt:checked ~ #c_obt,
-.content-tc #util:checked ~ #c_util,
-.content-tc #proj:checked ~ #c_proj,
-.content-tc #ceir:checked ~ #c_ceir {
-  display: inline-block;
-}
-.content-tc .space_o {
-  padding-left: 5px;
-}
 .content-tc .pkmnSbire {
   margin: 0 10px;
 }
@@ -846,7 +783,7 @@ body strong {
 .content-tc .contenu-utilisation {
   display: none;
   width: 415px;
-  height: 150px;
+  height: 245px;
   padding: 5px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;

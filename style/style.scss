@@ -787,78 +787,6 @@ $width-sidebar: 135px;
     .space_o {
     padding-left:5px;
     }
-    /* Obtention / Utilisation / CEIR */
-        .Obtention {
-            clear:both;
-            width:445px; 
-            margin: 20px auto 0 auto;
-    
-            input[type=radio] {
-                display:none;
-    
-                &:checked + label {
-                    background-image: $color-degrade;
-                    color: white;
-                }
-            }
-
-            label {
-                width:95px; 
-                height:20px;
-                padding: 1px 0;
-                border: 1px solid $color-black;
-                color: grey;
-                cursor: pointer;
-                text-align: center;
-                font-family: 'Sirin Stencil', cursive;
-                font-size:14px;
-                line-height: 15px;
-                border-radius: 5px;
-                margin-left:2px;
-
-                &:first-of-type {
-                    margin-left:25px;
-                }
-            }
-    
-        }
-
-        .contenu-obtention {
-            display: none;
-            width: 410px; 
-            height: 200px;
-            padding: 5px;
-            border: 1px solid $color-black;
-            border-radius : 5px;
-            color: black;
-            overflow: auto;
-            line-height : 22px;
-            font-family: 'PT Sans', sans-serif;
-            font-size:10px;
-            letter-spacing: 3px;
-            margin: 0 18px;
-    
-            img {
-                width: 25px;
-                margin-right: 5px;
-                margin-top: -3px;
-            }
-        }
-        .contenu-obtention a {
-        text-decoration: none;
-        color: $color-main;
-        }
-    
-        #obt:checked ~ #c_obt, 
-        #util:checked ~ #c_util,
-        #proj:checked ~ #c_proj, 
-        #ceir:checked ~ #c_ceir { 
-            display:inline-block;
-        }
-    
-        .space_o {
-        padding-left:5px;
-        }
 
     /* FIN DE LA PARTIE CONCERNANT L'INVENTAIRE */
 
@@ -970,7 +898,7 @@ $width-sidebar: 135px;
         .contenu-utilisation {
             display: none;
             width: 415px; 
-            height: 150px;
+            height: 245px;
             padding: 5px;
             border: 1px solid $color-black;
             border-radius : 10px;
