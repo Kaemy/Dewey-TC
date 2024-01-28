@@ -941,8 +941,9 @@ $width-sidebar: 135px;
             border: solid 1px $color-black;
             padding: 5px 5px;
             border-radius: 10px;
-            height: 500px;
+            height: 495px;
             overflow: auto;
+            margin-top: 5px;
 
             .kdo-title {
                 font-size: 10px;
