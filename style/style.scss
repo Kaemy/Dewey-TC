@@ -934,4 +934,17 @@ $width-sidebar: 135px;
         }
     
         /* FIN DE LA PARTIE CONCERNANT LES UTILISATIONS */
+
+        /* PARTIE SUR LES KDO */
+
+        .kdo-ava {
+            border: solid 1px $color-black;
+            padding: 5px 5px;
+            border-radius: 10px;
+            height: 500px;
+
+            .kdo-title {
+                font-size: 10px;
+            }
+        }
 }
