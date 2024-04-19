@@ -391,6 +391,15 @@ $width-sidebar: 135px;
                     color: lightpink;
                 }
             }
+
+            .badges {
+                img {
+                    &.noObtain {
+                        filter: grayscale(100%);
+                        opacity: 20%;
+                    }
+                }
+            }
         }
 
         .img-card {

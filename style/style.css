@@ -332,6 +332,10 @@ body strong {
   text-decoration: none;
   color: lightpink;
 }
+.content-tc .bloc-card .infos .badges img.noObtain {
+  filter: grayscale(100%);
+  opacity: 20%;
+}
 .content-tc .bloc-card .img-card {
   width: 225px;
 }
