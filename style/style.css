@@ -742,7 +742,7 @@ body strong {
 .content-tc .space_o {
   padding-left: 5px;
 }
-.content-tc .pkmnSbire {
+.content-tc .pkmnTeam {
   margin: 0 10px;
 }
 .content-tc .descri-mission {
@@ -870,4 +870,5 @@ body strong {
 .content-tc .kdo-ava .kdo-title {
   font-size: 10px;
   color: #00132a;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
